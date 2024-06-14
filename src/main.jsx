@@ -19,7 +19,7 @@ function injectChat() {
     let root = document.createElement('div');
     root.id = 'TeleChatbot';
     document.getElementsByTagName('body')[0].appendChild(root);
-    const server = window.TelechatbotServer || 'https://telechatbotserver.onrender.com';
+    const server = window.TelechatbotServer || 'https://telechatbot-client.vercel.app';
     const iFrameSrc = server + '/index.html';
     const host = window.location.host || 'unknown-host';
     const configure = { ...defaultConfiguration, ...window.TelechatbotConfig };
