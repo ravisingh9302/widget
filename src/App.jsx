@@ -16,7 +16,7 @@ function App({ TelechatbotId, host, iFrameSrc, configure }) {
     <>
       {isOpen ?
         <div style={{ width: configure.width?configure.width:"360px", height: configure.Height?configure.Height:"480px", position: 'fixed', right: '10px', bottom: "10px", overflow: "hidden", borderRadius: '10px', }}>
-          <div onClick={() => { setOpen(false) }} style={{ position: 'absolute', right: "5px", top: "0px", fontSize: "30px", cursor: 'pointer',color:configure.Closebtncolor }}>
+          <div onClick={() => { setOpen(false) }} style={{ position: 'absolute', right: "5px", top: "5px", fontSize: "30px", cursor: 'pointer',color:configure.Closebtncolor }}>
             <RxCrossCircled />
           </div>
           <Chatframe TelechatbotId={TelechatbotId} host={host}  iFrameSrc={iFrameSrc} configure={configure} />
