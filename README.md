@@ -5,19 +5,19 @@
 ## Follow step to use this CDN widget in your website
 *  These are  CDN links of my widget
 ```
-https://cdn.jsdelivr.net/gh/ravisingh9302/widget@main/dist/assets/widget-min.js
-https://cdn.jsdelivr.net/gh/ravisingh9302/widget@main/dist/assets/widget-min.css
+https://cdn.jsdelivr.net/gh/ravisingh9302/widget@main/dist/assets/widget-min_v1.0.0.js
+https://cdn.jsdelivr.net/gh/ravisingh9302/widget@main/dist/assets/widget-min_v1.0.0.css
 
 ```
 * paste the below stylesheet CDN in your HTML file HEAD section.
 ```
- <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/ravisingh9302/widget@main/dist/assets/widget-min.css">
+ <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/ravisingh9302/widget@main/dist/assets/widget-min_v1.0.0.css">
 
 ```
 
 * paste the below javascript CDN in your HTML file at just above the body closing tag.
 ```
- <script type="text/javascript"src="https://cdn.jsdelivr.net/gh/ravisingh9302/widget@main/dist/assets/widget-min.js"></script>
+ <script type="text/javascript"src="https://cdn.jsdelivr.net/gh/ravisingh9302/widget@main/dist/assets/widget-min_v1.0.0.js"></script>
 ```
 
 * After this you can paste the below code to your HTML page where you want the chat bot.
@@ -50,7 +50,7 @@ https://cdn.jsdelivr.net/gh/ravisingh9302/widget@main/dist/assets/widget-min.css
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Telechatbot</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/ravisingh9302/widget@main/dist/assets/widget-min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/ravisingh9302/widget@main/dist/assets/widget-min_v1.0.0.css">
 </head>
 
 <body>
@@ -59,7 +59,7 @@ https://cdn.jsdelivr.net/gh/ravisingh9302/widget@main/dist/assets/widget-min.css
 
     <div id="TeleChatbot"></div>
     <script>window.TelechatbotId = "your Telegramchat id" </script>
-    <script type="text/javascript"src="https://cdn.jsdelivr.net/gh/ravisingh9302/widget@main/dist/assets/widget-min.js"></script>
+    <script type="text/javascript"src="https://cdn.jsdelivr.net/gh/ravisingh9302/widget@main/dist/assets/widget-min_v1.0.0.js"></script>
 </body>
 
 </html>
