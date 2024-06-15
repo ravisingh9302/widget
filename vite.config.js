@@ -7,9 +7,9 @@ export default defineConfig({
   build: {
     rollupOptions: {
       output: {
-        entryFileNames: `assets/widget-min-v1.0.2.js`,
-        chunkFileNames: `assets/widget-min-v1.0.2.[ext]`,
-        assetFileNames: `assets/widget-min-v1.0.2.[ext]`
+        entryFileNames: `assets/widget-min-v1.0.3.js`,
+        chunkFileNames: `assets/widget-min-v1.0.3.[ext]`,
+        assetFileNames: `assets/widget-min-v1.0.3.[ext]`
       },
     },
 
