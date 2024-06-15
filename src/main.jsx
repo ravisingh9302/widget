@@ -12,7 +12,7 @@ if (window.attachEvent) {
 
 function injectChat() {
   if (!window.TelechatbotId) {
-    console.error('Please set window.intergramId (see example at github.com/idoco/intergram)');
+    console.error('Please set window.TelechatbotId (see example at github.com/idoco/intergram)');
   }
   else {
     console.log("telechatbotId ", TelechatbotId)
